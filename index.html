@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Github</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="./jquery-3.7.1.min.js" defer></script>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img id="profile-avatar" class="profile-avatar" src="https://via.placeholder.com/180x180" alt=".">
+            <h1 id="profile-name" class="profile-name">Usuário</h1>
+            <h2 id="profile-username" class="profile-username">@usuario</h2>
+            <ul class="numbers">
+                <li class="numbers-item">
+                    <h4>Repositórios</h4>
+                    <div id="repo-count">0</div>
+                </li>
+                <li class="numbers-item">
+                    <h4>Seguidores</h4>
+                    <div id="follower-count">0</div>
+                </li>
+                <li class="numbers-item">
+                    <h4>Seguindo</h4>
+                    <div id="following-count">0</div>
+                </li>
+            </ul>
+            <div class="profile-act">
+                <input id="profile-search" class="profile-search" type="text" placeholder="usuario">
+                <button type="button" id="button-search" class="button-search">Pesquisar</button>
+                <a href="#" target="_blank" class="profile-link d-none">Ver no Github</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
